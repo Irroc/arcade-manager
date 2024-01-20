@@ -9,14 +9,9 @@ const seedDatabase = async () => {
    sequelize.sync({ force: false });
 
   await User.bulkCreate(userData);
-
   await Location.bulkCreate(locationData);
   await Game.bulkCreate(gameData);
-  // for (const game of gameData) {
-  //   Game.bulkcreate({
-  //     ...game
-  //   });
-  // }
+
   process.exit(0);
 };
 
