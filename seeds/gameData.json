@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Cheap Game",
+    "cost": 10,
+    "manufacturer": "Cheapes Dealers R Us",
+    "type_of_cabinet": "Upright Cabinet",
+    "has_tickets": 0,
+    "has_prizes": 0,
+    "locations_id": 4
+  },
+  {
+    "name": "Ski-Ball",
+    "cost": 100,
+    "manufacturer": "Ski-ball inc",
+    "type_of_cabinet": "Lanes",
+    "has_tickets": 1,
+    "has_prizes": 0,
+    "locations_id": 2
+  },
+  {
+    "name": "Crain Game",
+    "cost": 1000,
+    "manufacturer": "Smart Cranes inc",
+    "type_of_cabinet": "Claw",
+    "has_tickets": 0,
+    "has_prizes": 1,
+    "locations_id": 6
+  },
+  {
+    "name": "Driver Game",
+    "cost": 300,
+    "manufacturer": "Drifters R Us",
+    "type_of_cabinet": "Driver",
+    "has_tickets": 0,
+    "has_prizes": 0,
+    "locations_id": 7
+  },
+  {
+    "name": "Stacker",
+    "cost": 3000,
+    "manufacturer": "Block inc",
+    "type_of_cabinet": "Claw",
+    "has_tickets": 0,
+    "has_prizes": 1,
+    "locations_id": 5
+  },
+  {
+    "name": "Big Buck Hunter",
+    "cost": 5,
+    "manufacturer": "BBH Technologies",
+    "type_of_cabinet": "Shooter",
+    "has_tickets": 0,
+    "has_prizes": 0,
+    "locations_id": 1
+  },
+  {
+    "name": "Juke Box",
+    "cost": 10000,
+    "manufacturer": "Copy Wrote Songs inc",
+    "type_of_cabinet": "Wallmount",
+    "has_tickets": 0,
+    "has_prizes": 0,
+    "locations_id": 3
+  },
+  {
+    "name": "Wild West",
+    "cost": 20000,
+    "manufacturer": "Big Games",
+    "type_of_cabinet": "Shooting Gallery",
+    "has_tickets": 1,
+    "has_prizes": 0,
+    "locations_id": 2
+  },
+  {
+    "name": "Hydro Thunder",
+    "cost": 500,
+    "manufacturer": "Water Technologies",
+    "type_of_cabinet": "Driver",
+    "has_tickets": 0,
+    "has_prizes": 0,
+    "locations_id": 2
+  },
+  {
+    "name": "Alpine Racer",
+    "cost": 200,
+    "manufacturer": "Retro Games",
+    "type_of_cabinet": "Driver",
+    "has_tickets": 0,
+    "has_prizes": 0,
+    "locations_id": 6
+  },
+  {
+    "name": "Wheel of Fortune",
+    "cost": 250,
+    "manufacturer": "Television Gaming",
+    "type_of_cabinet": "Upright Cabinet",
+    "has_tickets": 1,
+    "has_prizes": 0,
+    "locations_id": 2
+  },
+  {
+    "name": "Prize Hub",
+    "cost": 50000,
+    "manufacturer": "Smart Technologies",
+    "type_of_cabinet": "Upright Cabinet",
+    "has_tickets": 1,
+    "has_prizes": 1,
+    "locations_id": 7
+  }
+]
