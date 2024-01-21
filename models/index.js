@@ -3,12 +3,12 @@ const Location = require('./location');
 const Game = require('./game');
 
 Location.hasMany(Game, {
-  foreignKey: 'location_id',
+  foreignKey: 'locations_id',
   onDelete: 'Restrict'
 });
 
 Game.belongsTo(Location, {
-  foreignKey: 'location_id'
+  foreignKey: 'locations_id'
 });
 
 module.exports = { User, Location, Game };
