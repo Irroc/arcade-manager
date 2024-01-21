@@ -1,3 +1,4 @@
+schema_and_seeds
 DROP DATABASE IF EXISTS arcade_manager_db;
 CREATE DATABASE arcade_manager_db;
 
