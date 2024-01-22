@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Warehouse",
+      "address": "44 Address Street, nh",
+      "phone_number": "1111111111"
+    },
+    {
+        "name": "Breach Arcade",
+        "address": "33 Beach Street, nh",
+        "phone_number": "2222222222"
+    },
+    {
+        "name": "Best Karaoke Bar",
+        "address": "22 Main Street, nh",
+        "phone_number": "3333333333"
+    },
+    {
+        "name": "Way Out Campground",
+        "address": "11 Middle of Nowhere, nh",
+        "phone_number": "4444444444"
+    },
+    {
+        "name": "Mom and Pop's Corner Store",
+        "address": "55 Corner Street, nh",
+        "phone_number": "5555555555"
+    },
+    {
+        "name": "Ski Mountain",
+        "address": "66 Mountain Road, nh",
+        "phone_number": "6666666666"
+    },
+    {
+        "name": "Family Fun Center",
+        "address": "77 Family Friendly Street, nh",
+        "phone_number": "7777777777"
+    }
+  ]
+  
