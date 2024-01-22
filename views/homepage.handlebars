@@ -3,7 +3,7 @@
 <div class="row mb-4 project">
   <div class="col-md-5">
     <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+      <!-- Call helper function with triple brackets to render the pie chart -->
       {{{get_emoji}}}
       <a href="/project/{{project.id}}">{{project.name}}</a>
     </h2>
@@ -22,3 +22,7 @@
   </div>
 </div>
 {{/each}}
+  <div class="col-md-3">
+    <h3>Pie Chart</h3>
+    <canvas id="pieChart"></canvas>
+  </div>
