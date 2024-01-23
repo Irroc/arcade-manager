@@ -14,6 +14,24 @@ router.get('/', withAuth, async (req, res) => {
   }
 });
 
+router.put('/:id', withAuth, async (req, res) => {  
+  try { await Game.update(
+    {
+      // You can only update and the locations_id by attaching it to the request body.
+      locations_id: req.body.locations_id
+    },
+    {
+      // Gets the game based on the id given in the request parameters
+      where: {
+        id: req.params.id,
+      },
+    })
+    updated = {locations_id: req.body.locations_id}
+  res.status(200).json(updated);
+} catch (err) {
+  res.status(500).json(err);
+}
+})
 
 router.post('/', withAuth, async (req, res) => {
   try {
@@ -24,7 +42,7 @@ router.post('/', withAuth, async (req, res) => {
 
     res.status(200).json(newGame);
   } catch (err) {
-    res.status(400).json(err);
+    res.status(500).json(err);
   }
 });
 
