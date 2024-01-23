@@ -33,7 +33,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     const gameData = await Game.destroy({
       where: {
         id: req.params.id,
-        game_id: req.session.user_id,
+        user_id: req.session.user_id,
       },
     });
 
