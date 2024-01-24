@@ -1,15 +1,20 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const data = {
-        labels: ['Blue', 'Red', 'Orange', 'Yellow', 'Green', 'Purple'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3]
-        }]
-    }
+document.addEventListener('DOMContentLoaded', async function () {
+    try {
+        const response = await fetch('/api/data');
+        const data = await response.json();
+        const ctx = document.getElementById('pieChart').getContext('2d');
+        const pieChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Data from database',
+                    data: values
+                }]
+            }
+        });
 
-    const ctx = document.getElementById('pieChart').getContext('2d');
-    const pieChart = new Chart(ctx, {
-        type: 'pie',
-        data: data
-    });
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
 });
