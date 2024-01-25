@@ -8,7 +8,7 @@ router.get('/', withAuth, async (req, res) => {
         include: [{ model: Location }]
       });
 
-      res.status(200).json(data);
+      res.status(200).json(data);s
   } catch (err) {
       res.status(500).json(err);
   }
@@ -36,8 +36,7 @@ router.put('/:id', withAuth, async (req, res) => {
 router.post('/', withAuth, async (req, res) => {
   try {
     const newGame = await Game.create({
-      ...req.body,
-      user_id: req.session.user_id,
+      ...req.body
     });
 
     res.status(200).json(newGame);

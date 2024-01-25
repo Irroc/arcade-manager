@@ -10,20 +10,28 @@
 
     <form class="form new-game-form">
       <div class="form-group">
-        <label for="game-name">game name:</label>
+        <label for="game-name">Name of Game:</label>
         <input class="form-input" type="text" id="game-name" name="game-name" />
       </div>
       <div class="form-group">
-        <label for="game-location">game location:</label>
-        <input class="form-input" type="text" id="game-location" name="game-location" />
+        <label for="game-cost">Cost of the Game ($):</label>
+        <input class="form-input" type="number" id="game-cost" name="game-cost"></input>
       </div>
       <div class="form-group">
-        <label for="game-price">price of the game ($):</label>
-        <input class="form-input" type="number" id="game-price" name="game-price"></input>
+        <label for="game-manufacturer">Manufacturer of Game:</label>
+        <input class="form-input" type="text" id="game-manufacturer" name="game-manufacturer" />
       </div>
       <div class="form-group">
-        <label for="game-desc">description:</label>
-        <textarea class="form-input" type="text" id="game-desc" name="game-desc"></textarea>
+        <label for="game-type_of_cabinet">Cabinet Type of Game:</label>
+        <input class="form-input" type="text" id="game-type_of_cabinet" name="game-type_of_cabinet" />
+      </div>
+      <div class="form-group">
+        <label for="game-has_tickets">Check Box if Game have Tickets:</label>
+        <input class="form-input" type="checkbox" id="game-has_tickets" name="game-has_tickets" value="tickets" />
+      </div>
+      <div class="form-group">
+        <label for="game-has_prizes">Check Box if Game have Prizes:</label>
+        <input class="form-input" type="checkbox" id="game-has_prizes" name="game-has_prizes" value="prizes" />
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
@@ -39,6 +47,14 @@
         <input class="form-input" type="text" id="location-name" name="location-name" />
       </div>
       <div class="form-group">
+        <label for="location-address">location address:</label>
+        <input class="form-input" type="text" id="location-address" name="location-address" />
+      </div>
+      <div class="form-group">
+        <label for="location-phone_number">location phone_number:</label>
+        <input class="form-input" type="text" id="location-phone_number" name="location-phone_number" />
+      </div>
+      <div class="form-group">
         <button type="submit" class="btn btn-primary">Create</button>
       </div>
     </form>
@@ -47,22 +63,6 @@
     <h3>Pie Chart</h3>
     <canvas id="pieChart"></canvas>
   </div>
-
-  {{#if projects.length}}
-  <div class="col-md-6 project-list">
-    <h3>Current Projects:</h3>
-
-    {{#each projects as |project|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
-      </div>
-    </div>
-    {{/each}}
-  </div>
-  {{/if}}
 </div>
+<script src="./js/create.js"></script>
 
