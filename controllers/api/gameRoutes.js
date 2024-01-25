@@ -36,8 +36,7 @@ router.put('/:id', withAuth, async (req, res) => {
 router.post('/', withAuth, async (req, res) => {
   try {
     const newGame = await Game.create({
-      ...req.body,
-      user_id: req.session.user_id,
+      ...req.body
     });
 
     res.status(200).json(newGame);
