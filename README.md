@@ -1,3 +1,4 @@
+
 # arcade-manager
 Arcade Manager is all about creating a user friendly inventory data base. This data base will be used to easily add arcade games to the data base and also include the game location. The data base will also hold the addresses and phone numbers of each location. 
 Arcade Manager also displays charts so that the user can easily view the percentage of games and there corresponding locations. The user also has the ability to change the locations of each game. Once the user completes the necessary editing; then the database can be exported to an Excel spreadsheet.
@@ -55,3 +56,4 @@ If you have any question feel free to contact us by our githubs listed above.
 
 
 ## Links
+
