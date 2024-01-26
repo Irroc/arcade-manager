@@ -38,6 +38,14 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+app.get('/api/data', async (req, res) => {
+  try {
+    const data = await Data.find();
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: 'Internal Server Error '});
+  }
+});
 
 app.use(routes);
 
