@@ -39,7 +39,7 @@ Game.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: 'location',
+        model: 'locations',
         key: 'id',
       },
     }
