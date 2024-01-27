@@ -23,8 +23,10 @@ The webpages are finamicly created using the Handlebars.js as the template engin
 
 ## Visuals
 
-screen shots
-
+![Screenshot 2024-01-27 160848](https://github.com/Irroc/arcade-manager/assets/145626305/fc18af76-d85e-430a-8948-9b0d8763d84c)
+![Screenshot 2024-01-27 160921](https://github.com/Irroc/arcade-manager/assets/145626305/2fe60f6d-0924-4e26-886b-db8d56907ec9)
+![Screenshot 2024-01-27 160829](https://github.com/Irroc/arcade-manager/assets/145626305/088f16ae-5f9e-4723-bc9f-5e2670e0d8fc)
+![Screenshot 2024-01-27 161445](https://github.com/Irroc/arcade-manager/assets/145626305/2325160c-63ec-4940-818f-1b12e597069a)
 
 ## Installation
 
